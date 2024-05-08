@@ -1,0 +1,81 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Body Styles */
+
+body {
+    min-height: 100vh;
+    background-color: rgb(23, 84, 134)
+}
+
+/* Container Styles */
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.container h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.container h1 span {
+    margin-left: 10px;
+    color: rgb(90, 197, 90);
+    border-bottom: 4px solid rgb(90, 197, 90);
+}
+
+/* Input Styles */
+
+.display {
+    width: 70%;
+    margin-top: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 12px;
+    border-radius: 5px;
+}
+
+#password {
+    border: 0;
+    outline: 0;
+    font-size: 1.4rem;
+}
+.display img {
+    width: 20px;
+    cursor: pointer;
+}
+
+/* Button Styles */
+
+#password-btn {
+    background-color: rgb(10, 167, 101);
+    margin-top: 30px;
+    padding: 14px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 300;
+    gap: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#password-btn:hover{
+    background-color: rgb(10, 147, 101);
+    transform: scale(1.05);
+    box-shadow: 0 0 3px #fff;
+}
+#password-btn img{
+    width: 15px;
+}
